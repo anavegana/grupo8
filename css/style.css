@@ -1,14 +1,12 @@
-.contagem {
-    width:300px;
-    height:70px;
-    background-color: #ffffff;
+.contagem{
+margin-top: 30px;
 }
-    
+
 .numero  {
     background-color: #efefef;
     color: #000000;
     font-size: 22px;
-    margin: 5px;
+    margin: 10px;
     text-align: center;
     border-radius: 5px;
     padding: 5px;
@@ -18,3 +16,4 @@
     font-size:12px;
     text-align: center;
 }
+
