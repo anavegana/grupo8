@@ -2,6 +2,66 @@ html {
     scroll-behavior: smooth;
     height: 100%;
 }
+
+.sectionOne {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    background-color: #fcf1e1;
+}
+
+.sectionOne img {
+    width: 669px;
+    height: 669px;
+}
+
+.sectionTwo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #B0A18B;
+}
+
+.sectionTwo div {
+    padding: 140px 100px;
+}
+
+.sectionThree {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    background-color: #fffefc;
+}
+
+.sectionThree div {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 120px 100px;
+}
+
+.sectionThree div img {
+    width: 281px;
+    height: 281px;
+
+    padding-bottom: 16px;
+}
+
+.sectionThree div:first-child {
+    background: url("../assets/Vector.png") no-repeat;
+}
+
+.sectionThree div:last-child {
+    background: url("../assets/Vector1.png") no-repeat;
+}
+
+
 .contagem{
 margin-top: 30px;
 }
@@ -55,7 +115,7 @@ margin-top: 30px;
     border-radius: 50%;
 }
 .rodape {
-    position: fixed;
+    /* position: fixed; */
     left: 0;
     bottom: 0;
     width: 100%;
@@ -71,6 +131,29 @@ margin-top: 30px;
     text-align: center;
     font-size: small;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

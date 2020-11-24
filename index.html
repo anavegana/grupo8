@@ -1,152 +1,169 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="css/reset.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <title>Projeto Educação Antirracista</title>
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="animation/animation.css">
 </head>
-<body onload="">
-    
-    <header class="logo">
-        <img src="">
-    </header>
 
-    <section>
-        <h1 class="titulo-principal" id="titulo">TITULO PRINCIPAL</h1>
-        <p class="paragrafo principal">PARAGRAFO</p>
-
-        <div class="contagem">
-            <table>
-                <tr>
-                    <td>
-                        <span class="numero" id="dia"></span><span>:</span>
-                    </td>
-                    <td>
-                        <span class="numero" id="hora"></span><span>:</span>
-                    </td>
-                    <td>
-                        <span class="numero" id="minuto"></span><span>:</span>
-                    </td>
-                    <td>
-                        <span class="numero" id="segundo"></span>
-                    </td>
-                </tr>
-                <tr style="height:20px">
-                    <td>
-                        <p class="legenda">Dias</p>
-                    </td>
-                    <td>
-                        <p class="legenda">Horas</p>
-                    </td>
-                    <td>
-                        <p class="legenda">Min</p>
-                    </td>
-                    <td>
-                        <p class="legenda">Seg</p>
-                    </td>
-                </tr>
-            </table>
-            
-        </div>
+<body>
     
-        <h6>ingressos disponíveis <b id="ingressos">1431</b></h6>
-    </section>
+  <header class="logo">
+    <img src="">
+  </header>
+
+  <section>
+    <h1 class="titulo-principal" id="titulo">TITULO PRINCIPAL</h1>
+    <p class="paragrafo principal">PARAGRAFO</p>
+
+    <div class="contagem">
+      <table>
+        <tr>
+          <td>
+            <span class="numero" id="dia"></span><span>:</span>
+          </td>
+          <td>
+            <span class="numero" id="hora"></span><span>:</span>
+          </td>
+          <td>
+            <span class="numero" id="minuto"></span><span>:</span>
+          </td>
+          <td>
+            <span class="numero" id="segundo"></span>
+          </td>
+        </tr>
+        <tr style="height:20px">
+          <td>
+            <p class="legenda">Dias</p>
+          </td>
+          <td>
+            <p class="legenda">Horas</p>
+          </td>
+          <td>
+            <p class="legenda">Min</p>
+          </td>
+          <td>
+            <p class="legenda">Seg</p>
+          </td>
+        </tr>
+      </table>  
+    </div>
+    <h6>ingressos disponíveis <b id="ingressos">1431</b></h6>
+  </section>
         
-    <div class="lightbox" id="text">
-        <div class="box">
-          <!-- your title -->
-          <div class="content">
-            <div>
-              <p>Já vai?</p>
-              <p>Espera ai!</p>
-            </div>
-            <div>
-              <img src="assets/undraw_gift2.png" alt="Undraw Gift">
-            </div>
+  <div class="lightbox" id="text">
+    <div class="box">
+      <!-- your title -->
+      <div class="content">
+        <div>
+          <p>Já vai?</p>
+          <p>Espera ai!</p>
+        </div>
+        <div>
+          <img src="assets/undraw_gift2.png" alt="Undraw Gift">
+        </div>
+      </div>
+      <div class="form-content">
+        <a class="close" href="#">X</a>
+        <div class="form-content2">
+          <div>
+            <p>Baixe agora nosso</p>
+            <p><b>E-BOOK GRÁTIS</b></p>
+            <p>com dicas de</p>
+            <p><b>GESTÃO FINANCEIRA</b></p>
           </div>
-          <div class="form-content">
-            <a class="close" href="#">X</a>
-            <div class="form-content2">
-              <div>
-                <p>Baixe agora nosso</p>
-                <p><b>E-BOOK GRÁTIS</b></p>
-                <p>com dicas de</p>
-                <p><b>GESTÃO FINANCEIRA</b></p>
-              </div>
-              <div class="forms2">
-                <form autocomplete="off" method="POST"
-                  action="https://smtl.gama.academy/leads/1ccc7f60-25e3-11eb-bf8d-0d63c80760d2"
-                  onsubmit="document.getElementById('link').click(); getDataBtn(); return false;">
-                  <a id="link" href="file/7_Dicas_para_melhorar_suas_financas.pdf" target="_blank" download hidden></a>
-                  <input name="name" type="text" pattern="^\D{2,}\s[\D\s]{2,}$" title="Digite seu nome completo"
-                    placeholder="Nome completo" required />
-                  <input name="email" type="email" title="Digite um email válido" placeholder="E-mail" required />
-                  <input name="redirectTo" type="hidden" value="https://bolsocheio.netlify.app/thanks.html" />
-    
-                  <input type="submit" value="FAÇA O DOWNLOAD GRÁTIS AGORA" />
-                </form>
-              </div>
-            </div>
+          <div class="forms2">
+            <form
+              autocomplete="off"
+              method="POST"
+              action="https://smtl.gama.academy/leads/1ccc7f60-25e3-11eb-bf8d-0d63c80760d2"
+              onsubmit="document.getElementById('link').click(); getDataBtn(); return false;">
+              <a id="link" href="file/7_Dicas_para_melhorar_suas_financas.pdf" target="_blank" download hidden></a>
+              <input name="name" type="text" pattern="^\D{2,}\s[\D\s]{2,}$" title="Digite seu nome completo"
+                placeholder="Nome completo" required />
+              <input name="email" type="email" title="Digite um email válido" placeholder="E-mail" required />
+              <input name="redirectTo" type="hidden" value="https://bolsocheio.netlify.app/thanks.html" />
+              <input type="submit" value="FAÇA O DOWNLOAD GRÁTIS AGORA" />
+            </form>
           </div>
         </div>
       </div>
-      <div class="relatos">
-      <h3 class="textoref" id="referencia">
-        Chamada
-      </h3>
-      <p id="textinho">Um texto breve falando da oportunidade, etc etc etc, que tenha esse tamanho de fonte.
-        Um texto breve falando da oportunidade, etc etc etc, que tenha esse tamanho de fonte.
-        Um texto breve falando da oportunidade, etc etc etc, que tenha esse tamanho de fonte. </p>
-    </br>
-      <h3 class="textoref"  >
-        Chamada
-      </h3>
-      <p id="textinho">Um texto breve falando da oportunidade, etc etc etc, que tenha esse tamanho de fonte.
-        Um texto breve falando da oportunidade, etc etc etc, que tenha esse tamanho de fonte.
-        Um texto breve falando da oportunidade, etc etc etc, que tenha esse tamanho de fonte. </p>
-    </br>
-    <h3 class="textoref"  >
-      Chamada
-    </h3>
-    <p id="textinho">Um texto breve falando da oportunidade, etc etc etc, que tenha esse tamanho de fonte.
-      Um texto breve falando da oportunidade, etc etc etc, que tenha esse tamanho de fonte.
-      Um texto breve falando da oportunidade, etc etc etc, que tenha esse tamanho de fonte. </p>
-    </br>
+    </div>
   </div>
-  </br>
-  <div class="principal">
-    <div class="bloco" id="King"
-      <a href="#"><img id="imagem1"src="imagens/eximagem1.jpg"></a></br>
-    </br><p id="texto1">Um texto breve falando da oportunidade, etc etc etc, que tenha esse tamanho de fonte.
-      Um texto breve falando da oportunidade, etc etc etc, que tenha esse tamanho de fonte.
-      Um texto breve falando da oportunidade, etc etc etc, que tenha esse tamanho de fonte.
+
+  <section class="sectionOne">
+    <img src="assets/projeto.png" alt="">
+    <div>
+      <h1>Assista à live gratuitamente</h1>
+    </div>
+  </section>
+
+  <section class="sectionTwo">
+    <div>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting 
+        industry. Lorem Ipsum has been the industry's standard dummy text 
+        ever since the 1500s, when an unknown printer took a galley of type 
+        and scrambled it to make a type specimen book.
       </p>
     </div>
-    <div class="direita" id="Malcon"
-      <a href="#"><img id="imagem2" src="imagens/eximagem2.jpg"></a></br>
-    </br><p id="texto2">Um texto breve falando da oportunidade, etc etc etc, que tenha esse tamanho de fonte.
-      Um texto breve falando da oportunidade, etc etc etc, que tenha esse tamanho de fonte.Um texto breve falando da oportunidade, etc etc etc, que tenha esse tamanho de fonte
+    <div>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting 
+        industry. Lorem Ipsum has been the industry's standard dummy text 
+        ever since the 1500s, when an unknown printer took a galley of type 
+        and scrambled it to make a type specimen book.
       </p>
-    </div>  
-  </div>    
-<p id="vazio"></p></br></br></br></br>
+    </div>
+    <div>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting 
+        industry. Lorem Ipsum has been the industry's standard dummy text 
+        ever since the 1500s, when an unknown printer took a galley of type 
+        and scrambled it to make a type specimen book.
+      </p>
+    </div>
+  </section>
+
+  <section class="sectionThree">
+    <div>
+      <img src="assets/Ellipse.png" alt="">
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting 
+        industry. Lorem Ipsum has been the industry's standard dummy text 
+        ever since the 1500s, when an unknown printer took a galley of type 
+        and scrambled it to make a type specimen book.
+      </p>
+    </div>
+    <div>
+      <img src="assets/Ellipse1.png" alt="">
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting 
+        industry. Lorem Ipsum has been the industry's standard dummy text 
+        ever since the 1500s, when an unknown printer took a galley of type 
+        and scrambled it to make a type specimen book.
+      </p>
+    </div>
+  </section>
+
   <div id="botao">
     <button class="btn-2" onClick="document.getElementById('titulo').scrollIntoView();">Reserve seu lugar agora </button>
   </div>  
 
   <footer>
-  <div class="rodape">
-      <p>
-          Copyright © 2020. Todos os direitos reservados.
-      </p>
-  </div>
+    <div class="rodape">
+      <p>Copyright © 2020. Todos os direitos reservados.</p>
+    </div>
   </footer>
+
   <script src="js/scrip.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+  
   <script type="text/javascript">
   var ativarPopup = true;
   // Exit intent
@@ -158,8 +175,6 @@
       obj.attachEvent("on" + evt, fn);
     }
   }
-
-  
   // Exit intent trigger
   addEvent(document, 'mouseout', function (evt) {
 
