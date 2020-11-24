@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<body>
+<body onload="">
     
     <header class="logo">
         <img src="">
@@ -53,12 +53,80 @@
             
         </div>
     
-        
+        <h6>ingressos disponíveis <b id="ingressos">1431</b></h6>
     </section>
         
- 
+    <div class="lightbox" id="text">
+        <div class="box">
+          <!-- your title -->
+          <div class="content">
+            <div>
+              <p>Já vai?</p>
+              <p>Espera ai!</p>
+            </div>
+            <div>
+              <img src="assets/undraw_gift2.png" alt="Undraw Gift">
+            </div>
+          </div>
+          <div class="form-content">
+            <a class="close" href="#">X</a>
+            <div class="form-content2">
+              <div>
+                <p>Baixe agora nosso</p>
+                <p><b>E-BOOK GRÁTIS</b></p>
+                <p>com dicas de</p>
+                <p><b>GESTÃO FINANCEIRA</b></p>
+              </div>
+              <div class="forms2">
+                <form autocomplete="off" method="POST"
+                  action="https://smtl.gama.academy/leads/1ccc7f60-25e3-11eb-bf8d-0d63c80760d2"
+                  onsubmit="document.getElementById('link').click(); getDataBtn(); return false;">
+                  <a id="link" href="file/7_Dicas_para_melhorar_suas_financas.pdf" target="_blank" download hidden></a>
+                  <input name="name" type="text" pattern="^\D{2,}\s[\D\s]{2,}$" title="Digite seu nome completo"
+                    placeholder="Nome completo" required />
+                  <input name="email" type="email" title="Digite um email válido" placeholder="E-mail" required />
+                  <input name="redirectTo" type="hidden" value="https://bolsocheio.netlify.app/thanks.html" />
+    
+                  <input type="submit" value="FAÇA O DOWNLOAD GRÁTIS AGORA" />
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
    
-    <script src="js/scrip.js"></script>
+    
 </body>
+<script src="js/scrip.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript">
+  var ativarPopup = true;
+  // Exit intent
+  function addEvent(obj, evt, fn) {
+    if (obj.addEventListener) {
+      obj.addEventListener(evt, fn, false);
+    }
+    else if (obj.attachEvent) {
+      obj.attachEvent("on" + evt, fn);
+    }
+  }
+
+  
+  // Exit intent trigger
+  addEvent(document, 'mouseout', function (evt) {
+
+    if (evt.toElement == null && evt.relatedTarget == null && ativarPopup) {
+      $('.lightbox').slideDown();
+      ativarPopup = false;
+    };
+
+  });
+
+  // Closing the Popup Box
+  $('a.close').click(function (evt) {
+    evt.preventDefault();
+    $('.lightbox').slideUp();
+  });
+</script>
 </html>

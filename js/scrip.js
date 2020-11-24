@@ -23,3 +23,20 @@ setInterval(function () {
   
 
 }, 1000);
+
+// ingressos fakes
+
+var ingressos = 1431;
+
+window.onload(atualizaIngressos());
+
+function atualizaIngressos() {
+  if (ingressos % 2 == 0) {
+    ingressos = ingressos - 3;
+  } else {
+    ingressos = ingressos - 1;
+  }
+
+  document.getElementById("ingressos").innerHTML = ingressos;
+  setTimeout(atualizaIngressos, 10000);
+}
