@@ -307,8 +307,8 @@ body {
     width: -moz-min-content;
     width: min-content;
     /* min-width:500px; */
-    min-width: 670px;
-    min-height: 400px;
+    min-width: 470px;
+    min-height: 300px;
     margin: 2% auto;
     /* padding:20px; */
     background-color: #E5E5E5;
@@ -463,12 +463,22 @@ body {
     padding-bottom: 20px;
 }
 
+.box img {
+    width: 100%;
+
+    padding-bottom: 20px;
+}
+
 .box div {
     display: flex;
     align-items: center;
     justify-content: center;
 
     padding-bottom: 20px;
+}
+
+.box h2 {
+    padding: 20px 0 20px 0 !important;
 }
 
 .box div div:last-child {
@@ -493,7 +503,7 @@ body {
 }
 
 .box h2 {
-    width: 70%;
+    width: 90%;
     text-align: center;
     padding-top: 2px;
 
@@ -503,8 +513,9 @@ body {
     font-size: 16px;
     line-height: 120%;
 
-
     color: #bc7373;
+
+    padding-bottom: 40px !important;
 }
 
 .box div div img {
@@ -512,14 +523,43 @@ body {
     height: 100px;
 }
 
+.box button {
+    width: 350px;
+    height: 54px;
+
+    margin: 0 auto;
+
+    text-decoration: none;
+
+    text-align: center;
+    background: #7999B0;
+
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 36px;
+    /* identical to box height */
+
+    color: #FFFEFC;
+
+    border-radius: 8px;
+}
+
+.box button:hover {
+    background: #2879b3;
+}
+
 .close {
-    float: right;
-    display: block;
     margin-top: 3px !important;
     padding-right: -1px !important;
     width: 100% !important;
     text-align: right !important;
     float: right !important;
     color: #bc7373 !important;
+    background-color: #fcf0e0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    /* pading-top: 5px !important; */
+    border-radius: 8px 8px 0 0 !important;
 }
 /* Fim Modal */
