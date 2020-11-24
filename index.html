@@ -16,7 +16,7 @@
     </header>
 
     <section>
-        <h1 class="titulo-principal">TITULO PRINCIPAL</h1>
+        <h1 class="titulo-principal" id="titulo">TITULO PRINCIPAL</h1>
         <p class="paragrafo principal">PARAGRAFO</p>
 
         <div class="contagem">
@@ -94,13 +94,60 @@
           </div>
         </div>
       </div>
+      <div class="relatos">
+      <h3 class="textoref" id="referencia">
+        Chamada
+      </h3>
+      <p id="textinho">Um texto breve falando da oportunidade, etc etc etc, que tenha esse tamanho de fonte.
+        Um texto breve falando da oportunidade, etc etc etc, que tenha esse tamanho de fonte.
+        Um texto breve falando da oportunidade, etc etc etc, que tenha esse tamanho de fonte. </p>
+    </br>
+      <h3 class="textoref"  >
+        Chamada
+      </h3>
+      <p id="textinho">Um texto breve falando da oportunidade, etc etc etc, que tenha esse tamanho de fonte.
+        Um texto breve falando da oportunidade, etc etc etc, que tenha esse tamanho de fonte.
+        Um texto breve falando da oportunidade, etc etc etc, que tenha esse tamanho de fonte. </p>
+    </br>
+    <h3 class="textoref"  >
+      Chamada
+    </h3>
+    <p id="textinho">Um texto breve falando da oportunidade, etc etc etc, que tenha esse tamanho de fonte.
+      Um texto breve falando da oportunidade, etc etc etc, que tenha esse tamanho de fonte.
+      Um texto breve falando da oportunidade, etc etc etc, que tenha esse tamanho de fonte. </p>
+    </br>
+  </div>
+  </br>
+  <div class="principal">
+    <div class="bloco" id="King"
+      <a href="#"><img id="imagem1"src="imagens/eximagem1.jpg"></a></br>
+    </br><p id="texto1">Um texto breve falando da oportunidade, etc etc etc, que tenha esse tamanho de fonte.
+      Um texto breve falando da oportunidade, etc etc etc, que tenha esse tamanho de fonte.
+      Um texto breve falando da oportunidade, etc etc etc, que tenha esse tamanho de fonte.
+      </p>
+    </div>
+    <div class="direita" id="Malcon"
+      <a href="#"><img id="imagem2" src="imagens/eximagem2.jpg"></a></br>
+    </br><p id="texto2">Um texto breve falando da oportunidade, etc etc etc, que tenha esse tamanho de fonte.
+      Um texto breve falando da oportunidade, etc etc etc, que tenha esse tamanho de fonte.Um texto breve falando da oportunidade, etc etc etc, que tenha esse tamanho de fonte
+      </p>
+    </div>  
+  </div>    
+<p id="vazio"></p></br></br></br></br>
+  <div id="botao">
+    <button class="btn-2" onClick="document.getElementById('titulo').scrollIntoView();">Reserve seu lugar agora </button>
+  </div>  
 
-   
-    
-</body>
-<script src="js/scrip.js"></script>
+  <footer>
+  <div class="rodape">
+      <p>
+          Copyright © 2020. Todos os direitos reservados.
+      </p>
+  </div>
+  </footer>
+  <script src="js/scrip.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script type="text/javascript">
+  <script type="text/javascript">
   var ativarPopup = true;
   // Exit intent
   function addEvent(obj, evt, fn) {
@@ -128,5 +175,6 @@
     evt.preventDefault();
     $('.lightbox').slideUp();
   });
-</script>
+  </script>
+</body>
 </html>
