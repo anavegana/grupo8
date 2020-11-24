@@ -110,13 +110,13 @@ html {
     margin-top:29px;
     margin:0 auto;
     padding: 10px 10px 10px 10px;
-    
-}
+margin-left:400px}
+
 .explicação-botão{
     font-family: 'Roboto', sans-serif;
     color: #000000;
     text-align: center;
-    margin-top:50px;
+    margin-top:20px;
     margin-bottom:20px;
 }
 
@@ -124,6 +124,7 @@ html {
 .contagem{
     font-family: 'Roboto', sans-serif;
     text-align: center;
+    margin-left:400px;
 }
 
 .numero{
