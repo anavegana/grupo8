@@ -61,11 +61,6 @@ html {
     background: url("../assets/Vector1.png") no-repeat;
 }
 
-
-.contagem{
-margin-top: 30px;
-}
-
 .numero  {
     background-color: #efefef;
     color: #000000;
@@ -98,8 +93,8 @@ margin-top: 30px;
     display: flex;
     justify-content: center;
     height: auto;
-    padding-top: 38px;
-    padding-bottom: 62px;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 .btn-2 {
@@ -112,15 +107,28 @@ margin-top: 30px;
     border: none;
     border-radius: 30px;
     margin-bottom: 120px;
+    margin-top:29px;
     margin:0 auto;
+    padding: 10px 10px 10px 10px;
     
 }
 .explicação-botão{
+    font-family: 'Roboto', sans-serif;
     color: #000000;
     text-align: center;
     margin-top:50px;
+    margin-bottom:20px;
 }
 
+
+.contagem{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.numero{
+        background-color:#fcf1e1 ;
+}
 
 #imagem1{
     border-radius: 50%;
