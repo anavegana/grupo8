@@ -90,6 +90,18 @@ margin-top: 30px;
     float: left;
     margin: 10px;
 }
+
+.box{
+    flex-direction: column;
+    width: 100%;
+    background-color: #fcf1e1;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    padding-top: 38px;
+    padding-bottom: 62px;
+}
+
 .btn-2 {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
@@ -99,15 +111,17 @@ margin-top: 30px;
     background: #5F9EA0;
     border: none;
     border-radius: 30px;
-    height: 70px;
-    width: 300px;
-    margin-right: 10%;
-    margin-bottom: 100px;
-    position:absolute; 
-    left:45%;
-    transform: translate(-50%, -50%);
+    margin-bottom: 120px;
+    margin:0 auto;
     
 }
+.explicação-botão{
+    color: #000000;
+    text-align: center;
+    margin-top:50px;
+}
+
+
 #imagem1{
     border-radius: 50%;
 }
@@ -116,18 +130,18 @@ margin-top: 30px;
 }
 .rodape {
     /* position: fixed; */
-    left: 0;
+    
     bottom: 0;
     width: 100%;
     height: 40px;
     background-color: #454545;
     overflow: hidden;
-    margin-top: auto;
+    
 }
 
 .rodape p {
     color: #F0F0F2;
-    margin-top: 10px;
+    margin-top: 15px;
     text-align: center;
     font-size: small;
 }
