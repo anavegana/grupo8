@@ -268,7 +268,7 @@ body {
 /* Início Modal */
 .lightbox {
     /** Hide the lightbox */
-    /* display: none; */
+    display: none;
   
     /** Apply basic lightbox styling */
     position: fixed;
