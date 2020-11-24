@@ -20,7 +20,7 @@
         
   <div class="lightbox" id="text">
     <div class="box">
-      <a class="close" href="#">X</a>
+      <a class="close" onclick="closeModal()" href="#">X</a>
       <img src="assets/projeto.png" alt="Undraw Gift">
       <div>
         <div>
@@ -165,34 +165,23 @@
   </footer>
 
   <script src="js/scrip.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  
   <script type="text/javascript">
   var ativarPopup = true;
-  // Exit intent
-  function addEvent(obj, evt, fn) {
-    if (obj.addEventListener) {
-      obj.addEventListener(evt, fn, false);
+  let div = document.querySelector('body');
+    let openModal = true;
+
+    div.addEventListener('mouseleave', function () {
+      if (openModal) {
+        document.getElementById('modal').classList.remove('lightbox-none');
+        document.getElementById('modal').classList.add('lightbox');
+        openModal = false;
+      }
+    })
+
+    function closeModal() {
+      document.getElementById('modal').classList.add('lightbox-none');
+      document.getElementById('modal').classList.remove('lightbox');
     }
-    else if (obj.attachEvent) {
-      obj.attachEvent("on" + evt, fn);
-    }
-  }
-  // Exit intent trigger
-  addEvent(document, 'mouseout', function (evt) {
-
-    if (evt.toElement == null && evt.relatedTarget == null && ativarPopup) {
-      $('.lightbox').slideDown();
-      ativarPopup = false;
-    };
-
-  });
-
-  // Closing the Popup Box
-  $('a.close').click(function (evt) {
-    evt.preventDefault();
-    $('.lightbox').slideUp();
-  });
   </script>
 </body>
 </html>
