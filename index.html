@@ -6,6 +6,8 @@
   <meta name="keywords" content="">
   <meta name="description" content="">
   <title>Projeto Educação Antirracista</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/reset.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="animation/animation.css">
@@ -14,55 +16,26 @@
 </head>
 
 <body>
-    
-  <header class="logo">
+  <!-- <header class="logo">
     <img src="">
-  </header>
-
-  <section>
-        <h1 class="titulo-principal" id="titulo">TITULO PRINCIPAL</h1>
-        <p class="paragrafo principal">PARAGRAFO</p>
-
-        <h6>ingressos disponíveis <b id="ingressos">1431</b></h6>
-  </section>
+  </header> -->
         
   <div class="lightbox" id="text">
     <div class="box">
-      <!-- your title -->
-      <div class="content">
+      <a class="close" onclick="closeModal()" href="#">X</a>
+      <img src="assets/projeto.png" alt="Undraw Gift">
+      <div>
         <div>
-          <p>Já vai?</p>
-          <p>Espera ai!</p>
+          <h1>hey, já vai?</h1>
+          <h1> aproveite sua ÚLTIMA CHANCE!</h1>
+          <h2>Reserve seu ingresso para nossa live.</h2>
+          <button onclick="location.href='http://beta.sympla.com.br'" type="button">Reserve seu lugar agora</button>
+          <!-- <h1>Perdeu a live!?</h1>
+          <h2>Não se preocupe, ainda da tempo de assistir!</h2> -->
         </div>
-        <div>
-          <img src="assets/undraw_gift2.png" alt="Undraw Gift">
-        </div>
+
       </div>
-      <div class="form-content">
-        <a class="close" href="#">X</a>
-        <div class="form-content2">
-          <div>
-            <p>Baixe agora nosso</p>
-            <p><b>E-BOOK GRÁTIS</b></p>
-            <p>com dicas de</p>
-            <p><b>GESTÃO FINANCEIRA</b></p>
-          </div>
-          <div class="forms2">
-            <form
-              autocomplete="off"
-              method="POST"
-              action="https://smtl.gama.academy/leads/1ccc7f60-25e3-11eb-bf8d-0d63c80760d2"
-              onsubmit="document.getElementById('link').click(); getDataBtn(); return false;">
-              <a id="link" href="file/7_Dicas_para_melhorar_suas_financas.pdf" target="_blank" download hidden></a>
-              <input name="name" type="text" pattern="^\D{2,}\s[\D\s]{2,}$" title="Digite seu nome completo"
-                placeholder="Nome completo" required />
-              <input name="email" type="email" title="Digite um email válido" placeholder="E-mail" required />
-              <input name="redirectTo" type="hidden" value="https://bolsocheio.netlify.app/thanks.html" />
-              <input type="submit" value="FAÇA O DOWNLOAD GRÁTIS AGORA" />
-            </form>
-          </div>
-        </div>
-      </div>
+      
     </div>
   </div>
 
@@ -120,82 +93,97 @@
       </p>
     </div>
   </section>
- 
-    <section class="box">
-        <p class="explicação-botão">Garanta sua inscrição gratuitamente para a live</p>
-        <a href="https://beta.sympla.com.br/"><button class="btn-2">Reserve seu lugar agora</button></a>
-        <p class="explicação-botão">Será online no Youtube no dia 25/11  às 19:00</p>
 
-        <div class="contagem">
-            <table>
-              <tr>
-                <td>
-                  <span class="numero" id="dia"></span><span>:</span>
-                </td>
-                <td>
-                  <span class="numero" id="hora"></span><span>:</span>
-                </td>
-                <td>
-                  <span class="numero" id="minuto"></span><span>:</span>
-                </td>
-                <td>
-                  <span class="numero" id="segundo"></span>
-                </td>
-              </tr>
-              <tr style="height:20px">
-                <td>
-                  <p class="legenda">Dias</p>
-                </td>
-                <td>
-                  <p class="legenda">Horas</p>
-                </td>
-                <td>
-                  <p class="legenda">Min</p>
-                </td>
-                <td>
-                  <p class="legenda">Seg</p>
-                </td>
-              </tr>
-            </table>  
-          </div>
-    
-    </section>
+  <section class="sectionFour">
+    <div>
+      <h1>Garanta sua inscrição gratuitamente para a live</h1>
+      <button onclick="location.href='http://beta.sympla.com.br'" type="button">Reserve seu lugar agora</button>
+      <h2>ingressos disponíveis <b id="ingressos">1431</b></h2>
+      <h3>
+        Será online no Youtube
+        <br>
+        no dia 25/11  às 19:00
+      </h3>
+    </div>
+    <div class="contagem">
+      <div class="backCont">
+      <table>
+        <tr>
+          <td>
+            <span id="dia"></span>
+          </td>
+          <td>
+            <span>-</span>
+          </td>
+          <td>
+            <span id="hora"></span>
+          </td>
+          <td>
+            <span>:</span>
+          </td>
+          <td>
+            <span id="minuto"></span>
+
+          </td>
+          <td>
+            <span>:</span>
+          </td>
+          <td>
+            <span id="segundo"></span>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p class="legenda">Dias</p>
+          </td>
+          <td>
+            <p class="legenda"></p>
+          </td>
+          <td>
+            <p class="legenda">Horas</p>
+          </td>
+          <td>
+            <p class="legenda"></p>
+          </td>
+          <td>
+            <p class="legenda">Min</p>
+          </td>
+          <td>
+            <p class="legenda"></p>
+          </td>
+          <td>
+            <p class="legenda">Seg</p>
+          </td>
+        </tr>
+      </table>
+    </div>
+    </div>
+  </section>
 
   <footer>
-    <div class="rodape">
+    <!-- <div class="rodape">
       <p>Copyright © 2020. Todos os direitos reservados.</p>
-    </div>
+    </div> -->
   </footer>
 
   <script src="js/scrip.js"></script>
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
-  
   <script type="text/javascript">
   var ativarPopup = true;
-  // Exit intent
-  function addEvent(obj, evt, fn) {
-    if (obj.addEventListener) {
-      obj.addEventListener(evt, fn, false);
+  let div = document.querySelector('body');
+    let openModal = true;
+
+    div.addEventListener('mouseleave', function () {
+      if (openModal) {
+        document.getElementById('modal').classList.remove('lightbox-none');
+        document.getElementById('modal').classList.add('lightbox');
+        openModal = false;
+      }
+    })
+
+    function closeModal() {
+      document.getElementById('modal').classList.add('lightbox-none');
+      document.getElementById('modal').classList.remove('lightbox');
     }
-    else if (obj.attachEvent) {
-      obj.attachEvent("on" + evt, fn);
-    }
-  }
-  // Exit intent trigger
-  addEvent(document, 'mouseout', function (evt) {
-
-    if (evt.toElement == null && evt.relatedTarget == null && ativarPopup) {
-      $('.lightbox').slideDown();
-      ativarPopup = false;
-    };
-
-  });
-
-  // Closing the Popup Box
-  $('a.close').click(function (evt) {
-    evt.preventDefault();
-    $('.lightbox').slideUp();
-  });
   </script>
 </body>
 </html>
