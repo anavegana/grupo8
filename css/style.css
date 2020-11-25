@@ -11,6 +11,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  background-color: #fcf1e1;
 }
 
 header img {
@@ -280,6 +282,37 @@ header img {
 }
 
 @media (max-width: 950px) {
+  .sectionOne {
+    flex-wrap: wrap;
+  }
+
+  .sectionOne div {
+    display: flex;
+    width: 90%;
+  
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .sectionOne img {
+    padding: 20px 0;
+  }
+
+  .sectionOne h1 {
+    padding-top: 0px;
+  }
+
+  .sectionOne h2 {
+    padding-bottom: 20px;
+  }
+
+  .sectionOne button {
+    width: 100%;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
   .sectionTwo {
     flex-wrap: wrap;
   }
