@@ -23,9 +23,67 @@ header img {
   align-items: center;
   justify-content: space-around;
 
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 
   background-color: #fcf1e1;
+}
+
+.sectionOne img {
+  min-width: 300px;
+  min-height: 300px;
+  width: 40%;
+  height: 40%;
+}
+
+.sectionOne div {
+  width: 30%;
+
+  text-align: center;
+}
+
+.sectionOne h1 {
+  font-family: Archivo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 31.4347px;
+  line-height: 38px;
+  /* text-align: center; */
+
+  color: #000000;
+
+  padding-bottom: 40px;
+}
+
+.sectionOne h2 {
+  font-family: Archivo;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 31.4347px;
+  line-height: 38px;
+  /* text-align: center; */
+
+  color: #8D3B26;
+
+  padding-bottom: 80px;
+}
+
+.sectionOne button {
+  width: 350px;
+  height: 84px;
+
+  margin: 0 auto;
+
+  text-decoration: none;
+  text-align: center;
+  background: #7999B0;
+
+  font-style: normal;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 36px;
+  /* identical to box height */
+
+  color: #FFFEFC;
 }
 
 .sectionOne img {
