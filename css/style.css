@@ -7,11 +7,15 @@ body {
   font-family: "Archivo", sans-serif;
 }
 
-header img {
-  width: 140px;
-  height: 72px;
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-  padding-left: 20px;
+header img {
+  width: 256.73px;
+  height: 114.82px;
 }
 
 .sectionOne {
@@ -34,10 +38,22 @@ header img {
 .sectionTwo {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-around; */
 
   background-color: #b0a18b;
 }
+
+.sectionTwo p {
+  font-family: Archivo;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  text-align: center;
+  
+  color: #000000;
+}
+
 .paragrafo{
     font-weight:500;
 }
