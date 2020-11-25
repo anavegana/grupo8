@@ -317,6 +317,10 @@ header img {
     flex-wrap: wrap;
   }
 
+  .sectionTwo p {
+    font-size: 20px;
+  }
+
   .sectionThree {
     flex-wrap: wrap;
   }
