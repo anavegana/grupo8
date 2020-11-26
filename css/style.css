@@ -28,6 +28,8 @@ header img {
   flex-wrap: nowrap;
 
   background-color: #fcf1e1;
+
+  padding-bottom: 40px;
 }
 
 .sectionOne img {
