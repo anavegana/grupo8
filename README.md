@@ -31,9 +31,9 @@
 - [x] Desenvolver gatilhos de emergência em javascript, solicitados pelos hypers (não usar libs/plugins/ferramentas);
 - [x] Garantir que o layout não está quebrando em versão mobile em javascript (a maior parte dos acessos serão via mobile!);
 - [x] Tá ociosa/o? Faça code review de projetos de outros grupos! Fique à vontade para abrir seu pull request.
-- [ ] Integrar pixels de rastreamento (Google, Facebook, Mixpannel, etc) em páginas do projeto;
+- [x] Integrar pixels de rastreamento (Google, Facebook, Mixpannel, etc) em páginas do projeto;
 - [x] Rodar auditoria para garantir performance, acessibilidade, SEO e boas práticas (web.dev) e aplicar correções necessárias;
-- [ ] Volte ao início e certifique que não deixou nada para trás ;)
+- [x] Volte ao início e certifique que não deixou nada para trás ;)
 
 ## Preview
 
