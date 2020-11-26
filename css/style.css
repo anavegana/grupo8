@@ -346,6 +346,10 @@ text-align: center;
     width: 100%;
   }
 
+  .descricao-convidado {
+    width:22em;
+  }
+
   .sectionOne img {
     width: 100%;
   }
