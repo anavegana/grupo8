@@ -85,6 +85,6 @@ Depois que sua solicitação pull for merged, você pode excluir seu branch
 
 Feito com 💚 &nbsp;por 
 
-&nbsp; Ana Carolina 👋 &nbsp;[Mande um Aló](https://www.linkedin.com/in/georgaugusto/)  </br>
-&nbsp; José Vitor 👋 &nbsp;[Mande um Aló](https://www.linkedin.com/in//) </br>
-&nbsp; Georg Augusto Schlegel 👋 &nbsp;[Mande um Aló](https://www.linkedin.com/in//)
+&nbsp; Ana Carolina 👋 &nbsp;[Mande um Aló](https://www.linkedin.com/in/ana-carolina-silva-a7048412a)  </br>
+&nbsp; José Vitor 👋 &nbsp;[Mande um Aló](https://www.linkedin.com/in/jos%C3%A9-vitor-oliveira-nazareth-432361174) </br>
+&nbsp; Georg Augusto Schlegel 👋 &nbsp;[Mande um Aló](https://www.linkedin.com/in/georgaugusto/)
