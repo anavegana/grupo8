@@ -95,6 +95,12 @@ header img {
   /* identical to box height */
 
   color: #FFFEFC;
+  box-shadow: 0px 3px 6px #2e2d2c66;
+}
+
+.sectionOne button:hover {
+  transition: 0.2s;
+  background: #2879b3;
 }
 
 .sectionOne img {
@@ -270,9 +276,11 @@ text-align: center;
   /* identical to box height */
 
   color: #FFFEFC;
+  box-shadow: 0px 3px 6px #2e2d2c66;
 }
 
 .sectionFour button:hover {
+  transition: 0.2s;
   background: #2879b3;
 }
 
@@ -670,9 +678,11 @@ text-align: center;
   color: #fffefc;
 
   border-radius: 8px;
+  box-shadow: 0px 3px 6px #2e2d2c66;
 }
 
 .box button:hover {
+  transition: 0.2s;
   background: #2879b3;
 }
 
