@@ -68,7 +68,11 @@ header img {
 
   color: #8D3B26;
 
-  padding-bottom: 80px;
+  padding-bottom: 30px;
+}
+
+.sectionOne p {
+  padding-bottom: 10px;
 }
 
 .sectionOne button {
