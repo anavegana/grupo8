@@ -342,6 +342,28 @@ text-align: center;
 }
 
 @media (max-width: 450px) {
+  .sectionOne div {
+    width: 100%;
+  }
+
+  .sectionOne img {
+    width: 100%;
+  }
+
+  .sectionOne button {
+    height: 60px;
+  }
+
+  .sectionOne h1 {
+    padding: 0 5% 20px 5%;
+    font-size: 18px;
+  }
+
+  .sectionOne h2 {
+    font-size: 24px;
+    padding: 0 5% 10px 5%;
+  }
+
   .sectionFour button {
     width: 100%;
     height: 54px;
@@ -358,6 +380,10 @@ text-align: center;
   .sectionThree div:last-child {
     background: none;
   }
+
+ .sectionTwo p {
+  font-size: 18px;
+ }
 }
 
 
