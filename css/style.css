@@ -216,6 +216,10 @@ text-align: center;
   padding-bottom: 20px;
 }
 
+.sectionFour h2 {
+  text-decoration: line-through;
+}
+
 .sectionFour b {
   font-style: normal;
   font-weight: 500;
@@ -628,6 +632,7 @@ text-align: center;
 }
 
 .box h1 {
+  text-align: center;
   font-family: Archivo;
   font-style: normal;
   font-weight: bold;
@@ -693,7 +698,7 @@ text-align: center;
   text-align: right !important;
   float: right !important;
   color: #bc7373 !important;
-  background-color: #fcf0e0 !important;
+  /* background-color: #fcf0e0 !important; */
   padding: 0 !important;
   margin: 0 !important;
   /* pading-top: 5px !important; */

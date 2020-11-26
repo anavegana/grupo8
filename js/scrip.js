@@ -1,4 +1,4 @@
-var target_date = new Date("november 26, 2020, 19:00:00").getTime();
+var target_date = new Date("november 26, 2020, 19:30:00").getTime();
 var dias, horas, minutos, segundos;
 var regressiva = document.getElementById("regressiva");
 
