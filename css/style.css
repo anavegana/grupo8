@@ -150,6 +150,21 @@ header img {
   padding-bottom: 16px;
 }
 
+.sectionThree p {
+text-align: center;
+}
+
+.sectionThree b {
+  font-family: Archivo;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  
+  color: #000000;
+}
+
 .sectionThree div:first-child {
   background: url("../assets/Vector.png") no-repeat center;
   background-position: bottom;
