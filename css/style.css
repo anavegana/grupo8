@@ -392,6 +392,11 @@ text-align: center;
     background: none;
   }
 
+  .sectionTwo div {
+    width: 100%;
+    padding: 10% 6%;
+  }
+
  .sectionTwo p {
   font-size: 18px;
  }
