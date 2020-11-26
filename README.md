@@ -11,7 +11,7 @@
 
 ## Descrição
 <p align="justify">
-  Esse repositório foi criado para a realização do Show me the networking do Gama Experience, nesse desafio foi proposto para o time atingir 1.000 visualizações através da         realização de um evento online por Streaming (ex: youtube, zoom - não pode ser rede social) cuja temática tenha relação com o momento que o Brasil (e o mundo) estão vivendo.
+  Esse repositório foi criado para a realização do Show me the networking do Gama Experience, nesse desafio foi proposto para o time atingir 1.000 visualizações através da         realização de um evento online por Streaming (ex: youtube, zoom - não pode ser rede social) cuja temática tenha relação com o momento que o Brasil (e o mundo) estão vivendo. A idéia do site foi a criação de um projeto educacional antirracista,abrangendo um video de live no youtube com convidados e um e-book "dicionário antirracista" para ser feito o download.
 </p>
 <p align="justify">
   Para a nossa stack que é hacker foi sugerido um checklist:
